@@ -1,2 +1,2 @@
 # Study OLX
- <h1> tell me the truth </h1>
+ <h1> tell me the <strong>truth</strong> </h1>
