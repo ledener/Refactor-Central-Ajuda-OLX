@@ -220,3 +220,50 @@ padding-top: 150px;
 .doubt-paragraph {
     font-size: 19px;
 }
+
+/*FOOTER*/
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #f9f9f9;
+    height: 236px;
+    padding: 20px 0;
+}
+
+.master-footer {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-images {
+    display: inline;
+    justify-content: center;
+    
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.adjust-height {
+    height: 40px;
+    width: 40px;
+}
+
+.hr-footer {
+    width: 1400px;
+    margin: auto;
+    margin-top: 30px;
+    color: #999999;
+}
+
+.about-links {
+    text-decoration: none;
+}
