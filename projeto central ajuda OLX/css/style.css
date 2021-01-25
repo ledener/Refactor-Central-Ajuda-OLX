@@ -2,8 +2,9 @@ body {
     background-color: white;
     margin: 0px;
 }
+
 main {
-    height: 3000px;
+    height: 2150px;
 }
 
 @font-face {
@@ -116,8 +117,8 @@ main {
 
 .img-megaphone-1 {
     margin-left: 25px;
-
 }
+
 .span-1 {
     color: #4a4a4a;
     font-family: "Nunito sans";
@@ -157,7 +158,6 @@ main {
     margin-left: 25px;
     font-size: 18px;
     font-family: Nunito sans, sans-serif;
-
 }
 
 .questions-father2 {
@@ -201,7 +201,7 @@ padding-top: 150px;
     justify-content: center;
     border: black 1px solid;
     width: 500px;
-    height: 100px;
+    height: 85px;
 }
 
 .button-still-doubts {
@@ -236,7 +236,7 @@ padding-top: 150px;
 }
 
 .master-footer {
-    display: inline-block;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -244,7 +244,6 @@ padding-top: 150px;
 .content-images {
     display: inline;
     justify-content: center;
-    
 }
 
 .footer-icons {
@@ -258,12 +257,23 @@ padding-top: 150px;
 }
 
 .hr-footer {
-    width: 1400px;
-    margin: auto;
-    margin-top: 30px;
-    color: #999999;
+    width: 2200px;
+    margin: 30px auto 10px auto;
+    color: gray;
+}
+
+.about-links-master {
+    margin-left: 89px;
 }
 
 .about-links {
-    text-decoration: none;
+    text-decoration: underline;
+    color: #8b8989;
+    font-size: 13px;
+}
+
+.about-links2 {
+    margin-top: 1px;
+    color: #8b8989;
+    font-size: 13px;
 }
