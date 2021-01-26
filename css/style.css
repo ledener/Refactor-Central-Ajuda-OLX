@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
 body {
     background-color: white;
     margin: 0px;
+    font-family: "Nunito Sans";
 }
 
 main {
     height: 2150px;
 }
 
-@font-face {
-    font-family: Nunito sans;
+/* @font-face {
     src:url('Nunito Sans.ttf');
-}
+} */
 
 .logo-olx {
     width: 80px;
@@ -50,7 +52,6 @@ main {
     margin-top: 43px;
     font-size: 30px;
     font-weight: 700;
-    font-family: "Nunito sans"
 }
 
 .input-search {
@@ -121,7 +122,6 @@ main {
 
 .span-1 {
     color: #4a4a4a;
-    font-family: "Nunito sans";
    margin: 10px 0px 0px 10px;
     font-size: 24px;
     line-height: 22px;
@@ -157,7 +157,6 @@ main {
 .questions-father1 {
     margin-left: 25px;
     font-size: 18px;
-    font-family: Nunito sans, sans-serif;
 }
 
 .questions-father2 {
@@ -166,7 +165,6 @@ main {
     margin-top: 30px;
     padding-bottom: 25px;
     font-size: 18px;
-    font-family: Nunito sans, sans-serif;
     border-bottom: #ccc solid 1px;
     text-decoration: none;
     color: rgb(79, 79, 79);
@@ -178,7 +176,6 @@ main {
     margin-left: 25px;
     font-size: 18px;
     margin-top: 40px;
-    font-family: Nunito sans, sans-serif;
 }
 
 .frequent-doubts {
