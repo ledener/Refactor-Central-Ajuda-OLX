@@ -82,44 +82,27 @@ main {
 
 /* MAIN AREA - ALERT BUTTONS */
 
-.get-help-master { 
+.container {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    width: 1500px;
-    height: 300px;
-}
-
-.get-help-son {
-    display: flex;
-    justify-content: center;
-    width: 945px;
     margin-top: 25px;
 }
 
-.div-covid-tips {
+.home-banner {
     display: flex;
     align-items: center;
     border: 1px #e5e5e5 solid;
     border-radius: 4px;
-    width: 421.25px;
-    height: 238px;
-    margin-right: 15px;
-    margin-top: 10px;
+    margin: 1rem;
     background-color: #f9f9f9;
+    max-width: 26.25rem;
 }
 
-.div-important-info {
+.home-banner-content {
     display: flex;
-    border: 1px  #e5e5e5 solid;
-    align-items: center;
-    border-radius: 4px;
-    width: 443.25px;
-    height: 238px;
-    line-height: 22px;
-    margin-left: 15px;
-    margin-top: 10px;
-    background-color: #f9f9f9;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
 }
 
 .img-megaphone-1 {
@@ -187,10 +170,7 @@ main {
 .frequent-doubts {
     display: block;
     color: #6e0ad6;
-    font-size: 18px;
-    padding-left: 15px;
-  margin-top: 10px;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .still-doubts-master {
