@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
 body {
     background-color: white;
     margin: 0px;
+    font-family: "Nunito Sans";
 }
 
 main {
     height: 2150px;
 }
 
-@font-face {
-    font-family: Nunito sans;
+/* @font-face {
     src:url('Nunito Sans.ttf');
-}
+} */
 
 .logo-olx {
     width: 80px;
@@ -50,7 +52,6 @@ main {
     margin-top: 43px;
     font-size: 30px;
     font-weight: 700;
-    font-family: "Nunito sans"
 }
 
 .input-search {
@@ -60,6 +61,11 @@ main {
     height: 48px;
     border-radius: 4px;
     border: none;
+    padding: 0;
+}
+
+.input-search::placeholder {
+    padding-left: 1rem;
 }
 
 .button-search {
@@ -71,48 +77,32 @@ main {
     height: 48px;
     text-align: center;
     width: 123px;
+    margin-left: -0.35rem;
 }
 
 /* MAIN AREA - ALERT BUTTONS */
 
-.get-help-master { 
+.container {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    width: 1500px;
-    height: 300px;
-}
-
-.get-help-son {
-    display: flex;
-    justify-content: center;
-    width: 945px;
     margin-top: 25px;
 }
 
-.div-covid-tips {
+.home-banner {
     display: flex;
     align-items: center;
     border: 1px #e5e5e5 solid;
     border-radius: 4px;
-    width: 421.25px;
-    height: 238px;
-    margin-right: 15px;
-    margin-top: 10px;
+    margin: 1rem;
     background-color: #f9f9f9;
+    max-width: 26.25rem;
 }
 
-.div-important-info {
+.home-banner-content {
     display: flex;
-    border: 1px  #e5e5e5 solid;
-    align-items: center;
-    border-radius: 4px;
-    width: 443.25px;
-    height: 238px;
-    line-height: 22px;
-    margin-left: 15px;
-    margin-top: 10px;
-    background-color: #f9f9f9;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
 }
 
 .img-megaphone-1 {
@@ -121,7 +111,6 @@ main {
 
 .span-1 {
     color: #4a4a4a;
-    font-family: "Nunito sans";
    margin: 10px 0px 0px 10px;
     font-size: 24px;
     line-height: 22px;
@@ -157,7 +146,6 @@ main {
 .questions-father1 {
     margin-left: 25px;
     font-size: 18px;
-    font-family: Nunito sans, sans-serif;
 }
 
 .questions-father2 {
@@ -166,7 +154,6 @@ main {
     margin-top: 30px;
     padding-bottom: 25px;
     font-size: 18px;
-    font-family: Nunito sans, sans-serif;
     border-bottom: #ccc solid 1px;
     text-decoration: none;
     color: rgb(79, 79, 79);
@@ -178,16 +165,12 @@ main {
     margin-left: 25px;
     font-size: 18px;
     margin-top: 40px;
-    font-family: Nunito sans, sans-serif;
 }
 
 .frequent-doubts {
     display: block;
     color: #6e0ad6;
-    font-size: 18px;
-    padding-left: 15px;
-  margin-top: 10px;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .still-doubts-master {
